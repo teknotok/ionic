@@ -1,3 +1,15 @@
-.money {
+ion-list {
+  box-shadow: 0 1px 2px 1px rgb(0 0 0 / 20%);
+  .money {
     font-weight: bold;
+    font-size: large;
+  }
+}
+ion-card {
+  ion-card-subtitle {
+    font-size: medium;
+  }
+  p{
+      white-space:normal;
+  }
 }
