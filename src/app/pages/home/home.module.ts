@@ -7,14 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { HomePageRoutingModule } from './home-routing.module';
 
 import { HomePage } from './home.page';
+import { PickupCallCardComponent } from 'src/app/components/pickup-call-card/pickup-call-card.component';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
   ],
-  declarations: [HomePage]
+  declarations: [HomePage,PickupCallCardComponent]
 })
 export class HomePageModule {}
